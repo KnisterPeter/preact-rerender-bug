@@ -1,0 +1,31 @@
+{
+  "name": "preact-mobx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.18",
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "babili-webpack-plugin": "0.0.11",
+    "copy-webpack-plugin": "^4.0.1",
+    "http-server": "^0.10.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "preact": "^8.1.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
